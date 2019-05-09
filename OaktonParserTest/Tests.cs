@@ -15,6 +15,7 @@ namespace OaktonParserTest
         [InlineData(10, 20)]
         [InlineData(1, -2)]
         [InlineData(1, -20)]
+        [InlineData(-1, 2)]
         [InlineData(-1, -20)]
         [InlineData(-10, -20)]
         public void ShouldBeAbleToParseAllNumbersWithQuotes(int argVal, int optVal)
